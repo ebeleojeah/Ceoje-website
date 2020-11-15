@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <title>Freelance Web Developer/Contact</title>
+</head>
+
+<body>
+    
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="/">CE<span>OJE</span></a></div>
+            
+            <ul class="menu">
+                <li><a href="index.html">home</a></li>
+                <li><a href="/">about</a></li>
+                <li><a href="/">services</a></li>
+                <li><a href="/">skills</a></li>
+                <li><a href="/">Remarks</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+<!-------------home section start-------------------->
+    <section class="home" id="home">
+        
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello! my name is</div>
+                <div class="text-2">Ebele Ojeah</div>
+                <div class="text-3">I am a <span>Web Developer</span></div>
+            </div>
+        </div>
+
+    </section>
+
+<!----------------contact section---------------------->
+
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="column left">
+
+                    <div class="text">How can i help?</div>
+                    <p> Do you have an interest in building a
+                         website for your brand? You can drop your thought in the message
+                          section or call me. </p>
+                    <div class="icons">
+                        
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Ebele Ojeah</div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Lagos,Nigeria.</div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">ebeleojeah@gmail.com</div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <i class="fas fa-phone"></i>
+                            <div class="info">
+                                <div class="head">Phone Number</div>
+                                <div class="sub-title">09096833342</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="column right">
+                    <div class="text">Send A Message</div>
+
+                    <form name="contact" method="POST" netlify-honeypot="bot-field"
+                     data-netlify="true">
+                        <input type="hidden" name="form-name" value="contact">
+                        <p class="hidden">
+                            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                          </p>
+                        <div class="fields">
+
+                            <div class="field name">
+                                <input type="text" placeholder="Name..." name="name" required>
+                            </div>
+
+                            <div class="field email">
+                                <input type="email" placeholder="Email..." name="email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="field">
+                                <input type="text" placeholder="Phone number..." name="number" required>
+                        </div>
+                        
+                        
+                        <div class="field">
+                            <input type="text" placeholder="Title..." name="Title" required>
+                        </div>
+
+                        <div class="field textarea">
+                            <textarea name="text" cols="30" rows="10" placeholder="Drop A message..."required></textarea>
+                        </div>
+
+                        <div class="button">
+                            <button type="submit">Send</button>
+                        </div>
+
+                        
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!---------------footer----------->
+
+        <footer>
+            <a href="">CEOJE</a>  <span class="far fa-copyright"></span> 2020</span>
+        </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
